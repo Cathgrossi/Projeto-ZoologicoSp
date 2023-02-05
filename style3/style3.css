@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #e9eef2;
+}
+
+
+/*header*/
+
+section {
+    width: 100%;
+    padding: 50px;
+    background: #e9eef2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .logo {
+    position: relative;
+    max-width: 150px;
+}
+
+header .navegation ul {
+    position: relative;
+    display: flex;
+}
+
+header .navegation li {
+    list-style: none;
+}
+
+header .navegation li a {
+    color: #e65c4f;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    transition: 0.3s;
+    font-weight: 600;
+    color: #78a6c8;
+}
+
+
+/*main*/
+
+.about_intro {
+    background: #e65c4f;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 15px 50px gray;
+    display: flex;
+    justify-content: center;
+}
+
+.img-intro {
+    margin-top: 40px;
+    max-width: 50%;
+}
+
+.about_intro-content {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_intro-content span {
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+}
+
+.about_intro-content h1 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #e9eef2;
+}
+
+.inner {
+    width: 100;
+    max-width: 400px;
+    text-align: justify;
+    position: relative;
+}
+
+.inner p {
+    margin-bottom: 18px;
+}
+
+.part2-separacao {
+    background: #e9eef2;
+    padding: 50px;
+}
+
+
+/*footer*/
+
+.redes-sociais {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer-title-center {
+    text-transform: uppercase;
+    color: #989995;
+    margin-top: 40px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.redes-sociais ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.redes-sociais ul li {
+    list-style: none;
+}
+
+.redes-sociais ul li a img {
+    margin: 0 13px;
+    width: 35px;
+    height: 35px;
+}
+
+.footer-final {
+    color: #989995;
+    margin-top: 32px;
+    border-top: 1px solid #989995;
+    padding-top: 22px;
+    text-align: center;
+}
+
+.footer-final p {
+    margin: 22px;
+}
